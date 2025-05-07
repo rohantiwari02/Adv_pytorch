@@ -103,7 +103,13 @@ AdvBlackbox_pathmnist.ipynb
 
 Dataset: PathMNIST from the MedMNIST collection
 Format: 3-channel RGB images, 28×28 resolution, 9 classes of tissue types
-🔭 Future Work
+
+To download and split dataset to Train, Val, Test
+```bash
+python dataset.py
+```
+
+## 🔭 Future Work
 
 Add adversarial training as a defense mechanism
 Implement stronger attacks like PGD and CW
