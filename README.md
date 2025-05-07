@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This project demonstrates adversarial attacks on medical image classification models using the **Fast Gradient Sign Method (FGSM)**, tested in both **white-box** and **black-box** settings with the **PathMNIST** dataset.
 
