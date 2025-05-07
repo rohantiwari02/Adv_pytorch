@@ -81,22 +81,25 @@ cd Adversarial-FGSM-PathMNIST
 
 Install dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 Train the model
 
+```bash
 python train.py
-
+```
 Evaluate or run attacks
-
+```bash
 python eval.py
-
+```
 Or run Jupyter notebooks:
-
+```bash
 AdvFGSM_PathMNIST.ipynb
 AdvBlackbox_pathmnist.ipynb
-
-📚 Dataset
+```
+## 📚 Dataset
 
 Dataset: PathMNIST from the MedMNIST collection
 Format: 3-channel RGB images, 28×28 resolution, 9 classes of tissue types
@@ -106,8 +109,8 @@ Add adversarial training as a defense mechanism
 Implement stronger attacks like PGD and CW
 Use Grad-CAM to visualize vulnerable regions
 Evaluate robustness across different datasets
-🧑‍💻 Author
+
+## 🧑‍💻 Author
 
 Rohan Tiwari
 
-If you find this useful or have questions, feel free to connect or raise issues on the repository.
