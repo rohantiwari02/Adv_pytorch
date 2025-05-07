@@ -63,8 +63,8 @@ This project demonstrates adversarial attacks on medical image classification mo
 
 | Attack Type   | Clean Accuracy | Adversarial Accuracy | Epsilon (ε) |
 |---------------|----------------|-----------------------|-------------|
-| White-box     |  *e.g., 88%*    |  *e.g., 43%*           | 0.1         |
-| Black-box     |  *e.g., 87%*    |  *e.g., 51%*           | 0.1         |
+| White-box     |      *79%*     |        *23%*          | 0.1         |
+| Black-box     |      *82%*     |        *38%*          | 0.1         |
 
 - Visual changes are minimal but enough to confuse the model.
 - Even black-box attacks reduce accuracy significantly.
