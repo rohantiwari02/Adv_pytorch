@@ -24,6 +24,7 @@ This project demonstrates adversarial attacks on medical image classification mo
 
 ## 📁 Project Structure
 
+```bash
 ├── attacks/ # Attack-specific modules
 ├── data/ # Data preparation scripts
 ├── models/ # Model definitions
@@ -37,7 +38,7 @@ This project demonstrates adversarial attacks on medical image classification mo
 ├── train.py # Model training
 ├── utils.py # Helper functions
 └── README.md # Project documentation
-
+```
 
 ---
 
@@ -111,10 +112,10 @@ python dataset.py
 
 ## 🔭 Future Work
 
-Add adversarial training as a defense mechanism
-Implement stronger attacks like PGD and CW
-Use Grad-CAM to visualize vulnerable regions
-Evaluate robustness across different datasets
+- Add **adversarial training** as a defense mechanism  
+- Implement stronger attacks like **PGD** and **CW**  
+- Use **Grad-CAM** to visualize affected input regions  
+- Evaluate robustness across different datasets  
 
 ## 🧑‍💻 Author
 
